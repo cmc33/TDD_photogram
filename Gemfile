@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+group :development, :test do
+  gem 'factory_girl_rails'
+end
+
 gem 'capybara'
 
 %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
