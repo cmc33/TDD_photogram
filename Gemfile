@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'simple_form'
+
+
 group :development, :test do
   gem 'factory_girl_rails'
 end
