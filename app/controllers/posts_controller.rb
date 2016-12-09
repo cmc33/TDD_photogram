@@ -4,6 +4,7 @@ def index
 end
 
 def new
+  @posts = Post.new
 end
 
 end
